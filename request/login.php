@@ -71,7 +71,7 @@
 
             
 
-            $success='https://backoffice-gestao-php.herokuapp.com/index.php';
+            $success='index.php';
             $arr = array('error'=>'', 'id'=>$_SESSION['pr_uid'], 'success'=>$success);
 
           }
