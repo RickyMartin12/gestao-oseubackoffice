@@ -1,0 +1,19 @@
+FROM geerlingguy/php-apache:latest
+
+#RUN rm /var/www/html/index.html
+COPY . /var/www/html/.
+
+RUN chmod -R 777 /var/www/html/php
+
+RUN chmod -R 777 /var/www/html/php/Database
+RUN chmod -R 777 /var/www/html/php/Editor
+RUN chmod -R 777 /var/www/html/php/Ext
+RUN chmod -R 777 /var/www/html/php/Vendor
+
+RUN chmod -R 777 /var/www/html/definitions
+RUN chmod -R 777 /var/www/html/definitions/upload
+
+RUN chmod -R 777 /var/www/html/fonts
+
+COPY ./ports.conf /etc/apache2/ports.conf
+COPY ./apache.conf /etc/apache2/site-enabled/000-default.conf

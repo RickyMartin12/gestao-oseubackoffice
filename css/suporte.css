@@ -1,0 +1,68 @@
+
+#info-suporte
+{
+  display: none;
+}
+
+#suporte_add
+{
+  display: none;
+}
+
+
+
+.panel-heading.m_yellow
+{
+    background-color: #ff0;
+    color: #000;
+}
+
+
+.form-control, .input-group-addon
+{
+  border-radius: 0px!important;
+}
+.btn {
+    border-radius: 0px!important;
+}
+#clock_t
+{
+  color: #fff;
+}
+.panel-heading.m_red
+{
+  background-color: #f44336;
+    color: #fff;
+}
+.panel-heading.m_blue
+{
+  background-color: #2196F3;
+    color: #fff;
+}
+.panel-heading.m_green
+{
+  background-color: #4CAF50;
+    color: #fff;
+}
+#btn2,#btn3, .col1, .col2
+{
+  display: none;
+}
+tr {
+    background: #fff!important;
+}
+
+button.btn-sm.btn.btn-info.btn-add-bug {
+    float: right;
+}
+
+
+button.btn-sm.btn.btn-info.btn-add-sujestao {
+    float: right;
+}
+
+#btn1, #btn2, #btn3
+{
+    float: right;
+}
+
