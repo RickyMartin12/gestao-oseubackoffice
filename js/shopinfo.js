@@ -1,6 +1,6 @@
 function GetEstado(){
   dataValue='action=37';
-  $.ajax({ url:'../gestao/definitions/action_definitions.php',
+  $.ajax({ url:'https://backoffice-gestao-php.herokuapp.com/definitions/action_definitions.php',
     data:dataValue,
     type:'POST', 
     success:function(data){
@@ -13,7 +13,7 @@ function GetEstado(){
 
 function GetNIF(){
   dataValue='action=33';
-  $.ajax({ url:'../gestao/definitions/action_definitions.php',
+  $.ajax({ url:'https://backoffice-gestao-php.herokuapp.com/definitions/action_definitions.php',
     data:dataValue,
     type:'POST', 
     success:function(data){
@@ -26,7 +26,7 @@ function GetNIF(){
 
 function GetEmpresa(){
   dataValue='action=34';
-  $.ajax({ url:'../gestao/definitions/action_definitions.php',
+  $.ajax({ url:'https://backoffice-gestao-php.herokuapp.com/definitions/action_definitions.php',
     data:dataValue,
     type:'POST', 
     success:function(data){
@@ -39,7 +39,7 @@ function GetEmpresa(){
 
 function shopDefinitions(){
   dataValue='action=3';
-  $.ajax({ url:'../gestao/definitions/action_definitions.php',
+  $.ajax({ url:'https://backoffice-gestao-php.herokuapp.com/definitions/action_definitions.php',
     data:dataValue,
     type:'POST', 
     success:function(data){
