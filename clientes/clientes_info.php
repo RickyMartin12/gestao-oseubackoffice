@@ -142,7 +142,7 @@ GetEmpresa2();
 
 function GetEmpresa2(){
   dataValue='action=66';
-  $.ajax({ url:'../gestao/definitions/action_definitions.php',
+  $.ajax({ url:'https://backoffice-gestao-php.herokuapp.com/definitions/action_definitions.php',
     data:dataValue,
     type:'POST', 
     success:function(data){

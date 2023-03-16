@@ -182,7 +182,7 @@ function carousel() {
 shopDefinitions();
 
 function move() {
-      $('.logo_insert').prop('src','../gestao/images/logo_oseu.png');
+      $('.logo_insert').prop('src','https://backoffice-gestao-php.herokuapp.com/images/logo_oseu.png');
   var elem = document.getElementById("myBar");   
   var width = 5;
   var id = setInterval(frame, 20);

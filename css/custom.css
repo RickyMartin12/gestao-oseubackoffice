@@ -3,7 +3,7 @@
 body{
     padding-top: 70px;
     min-height: 100vh;
-    background-image: url("/gestao/images/fundo.jpg");
+    background-image: url("https://backoffice-gestao-php.herokuapp.com/images/fundo.jpg");
 }
 
 .filter-button{height:34px;}
